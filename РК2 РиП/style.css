@@ -1,0 +1,28 @@
+ .rk { 
+    width: 600px;
+    border: 1px solid #a52a2a;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #fff;
+   }
+   .rk th {
+    background: #fcba03;
+    color: white; 
+   }
+   .rk td, .rk th { 
+    border-bottom: 1px solid black;
+    border: 1px solid #000;
+    text-align: center;
+
+   }
+   .rk td, .rk th {
+    padding: 4px;
+   }
+
+.rk tr:nth-child(odd){
+  background: #00ff33;
+}
+ 
+.rk tr:nth-child(even){
+  background: #6200ff;
+}
